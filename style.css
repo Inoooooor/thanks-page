@@ -1,0 +1,111 @@
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Days One", sans-serif;
+}
+
+.thanks-section {
+  height: 100vh;
+  background-image: url("../src/images/thanks-page/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thanks-section__content {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+}
+
+.thanks__text-content {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thanks-pictures-content {
+  flex-basis: 60%;
+  position: relative;
+}
+
+.text-caption {
+  font-size: 96px;
+  color: rgba(175, 149, 134, 1);
+  flex-basis: 20%;
+  width: 60%;
+}
+
+.text-content {
+  width: 50%;
+  flex-basis: 15%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.thanks-links {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 100px;
+  padding: 20px 0;
+}
+
+.social-media__caption {
+  margin-bottom: 20px;
+}
+
+.media-icon {
+  flex-basis: 20%;
+}
+
+.media-icon img {
+  width: 100%;
+}
+.elki2024 {
+  width: 70%;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  rotate: 10deg;
+}
+
+.girl {
+  position: absolute;
+  width: 55%;
+  left: 25%;
+  bottom: 0;
+}
+.draco {
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+  left: 50%;
+}
+
+.sharik {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 15%;
+}
+
+.showflake {
+  position: absolute;
+  width: 15%;
+  top: 55%;
+  left: 25%;
+}
